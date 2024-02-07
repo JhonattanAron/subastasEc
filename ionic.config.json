@@ -1,0 +1,7 @@
+{
+  "name": "subastas_au",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

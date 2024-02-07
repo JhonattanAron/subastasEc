@@ -1,0 +1,17 @@
+ion-tab-bar {
+  margin: 10px;
+  border-radius: 20px;
+  contain: none !important;
+
+  ion-tab-button {
+    transition: 0.5s;
+  }
+
+  ion-tab-button:hover {
+    transition: 0.5s;
+    visibility: visible !important;
+    transform: translateY(-20px);
+    background-color: rgb(28, 28, 92);
+    border-radius: 50%;
+  }
+}
