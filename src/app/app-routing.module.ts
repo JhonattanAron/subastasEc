@@ -31,6 +31,8 @@ const routes: Routes = [
     path: 'perfil',
     loadChildren: () => import('./pages/perfil/perfil.module').then( m => m.PerfilPageModule)
   },
+  
+
 ];
 
 @NgModule({
