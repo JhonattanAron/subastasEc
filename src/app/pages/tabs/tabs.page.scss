@@ -1,10 +1,11 @@
 ion-tab-bar {
   margin: 10px;
-  border-radius: 20px;
+  border-radius: 20px !important;
   contain: none !important;
 
   ion-tab-button {
     transition: 0.5s;
+    border-radius: 50%;
   }
 
   ion-tab-button:hover {

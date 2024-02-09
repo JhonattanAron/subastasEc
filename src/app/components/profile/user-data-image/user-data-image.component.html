@@ -1,6 +1,22 @@
 <div>
   <mat-tab-group>
-    <mat-tab label="Mis Subastas"> Galeria </mat-tab>
-    <mat-tab label="Guardados"> Guardados </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <ion-icon style="font-size: x-large" name="bag-outline"></ion-icon>
+      </ng-template>
+      Contenido de la pestaña 1
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <ion-icon style="font-size: x-large" name="bookmark-outline"></ion-icon>
+      </ng-template>
+      Contenido de la pestaña 2
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <ion-icon style="font-size: x-large" name="cash-outline"></ion-icon>
+      </ng-template>
+      Contenido de la pestaña 3
+    </mat-tab>
   </mat-tab-group>
 </div>

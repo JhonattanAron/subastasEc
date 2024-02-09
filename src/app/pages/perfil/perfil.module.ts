@@ -10,7 +10,9 @@ import { PerfilPage } from './perfil.page';
 
 //Components
 import { UserDataImageComponent } from 'src/app/components/profile/user-data-image/user-data-image.component';
-import { ModalSettingsComponent } from 'src/app/components/profile/modal-settings/modal-settings.component';
+import { ImageUserComponent } from 'src/app/components/profile/image-user/image-user.component';
+import { SettingRouteComponent } from 'src/app/components/profile/setting-route/setting-route.component';
+
 
 
 @NgModule({
@@ -18,7 +20,8 @@ import { ModalSettingsComponent } from 'src/app/components/profile/modal-setting
     CommonModule,
     FormsModule,
     IonicModule,
-    PerfilPageRoutingModule , UserDataImageComponent , ModalSettingsComponent
+    PerfilPageRoutingModule , UserDataImageComponent ,
+    ImageUserComponent , SettingRouteComponent,
   ],
   declarations: [PerfilPage ]
 })
