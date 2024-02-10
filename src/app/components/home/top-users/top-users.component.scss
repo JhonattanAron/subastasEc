@@ -1,0 +1,18 @@
+.TopUsers {
+  display: flex;
+  padding: 25px;
+  position: relative;
+  ion-item {
+    border-radius: 20px;
+  }
+  .Top {
+    border-radius: 40%;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    background-color: yellow;
+    z-index: 2;
+    color: black;
+    font-weight: bold;
+  }
+}

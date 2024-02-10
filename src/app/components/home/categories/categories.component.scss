@@ -1,0 +1,38 @@
+.containerCategories {
+  display: flex;
+  filter: drop-shadow(9px, 9px, 9px rgb(230, 224, 224));
+  ion-card {
+    background-color: rgba(253, 253, 253, 0);
+    display: flex;
+    padding: 30px;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    ion-img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      margin: 0;
+      object-fit: cover;
+      transition: 0.5s;
+    }
+    ion-card-title {
+      font-weight: bold;
+      padding: 2px;
+    }
+  }
+  ion-card:hover {
+    ion-img {
+      transform: scale(2);
+      transition: 0.5s;
+    }
+    .bg {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(12, 12, 12, 0.5);
+    }
+  }
+}
